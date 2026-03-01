@@ -7,6 +7,7 @@ extends Control
 @onready var press_start: Label = %PressStart
 
 var _blink_timer: float = 0.0
+var _transitioning: bool = false
 const BLINK_INTERVAL: float = 0.6
 
 
@@ -36,6 +37,8 @@ func _unhandled_input(event: InputEvent) -> void:
 	if GameManager.is_headless:
 		return
 
-	if event.is_action_pressed("confirm"):
-		GameManager.log_info("Start pressed — ready to transition")
+	if event.is_action_pressed("confirm") and not _transitioning:
+		_transitioning = true
+		GameManager.log_info("Start pressed — transitioning to main menu")
 		get_viewport().set_input_as_handled()
+		SceneManager.change_scene("res://scenes/ui/main_menu.tscn")

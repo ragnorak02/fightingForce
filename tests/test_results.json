@@ -176,11 +176,447 @@
 		{
 			"name": "credits_file",
 			"status": "PASS"
+		},
+		{
+			"name": "data_classes_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_party_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_enemies_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_battle_01_json",
+			"status": "PASS"
+		},
+		{
+			"name": "battle_scene_exists",
+			"status": "PASS"
+		},
+		{
+			"name": "script_tile_data",
+			"status": "PASS"
+		},
+		{
+			"name": "script_grid_data",
+			"status": "PASS"
+		},
+		{
+			"name": "script_unit_data",
+			"status": "PASS"
+		},
+		{
+			"name": "script_pathfinder",
+			"status": "PASS"
+		},
+		{
+			"name": "script_combat_calc",
+			"status": "PASS"
+		},
+		{
+			"name": "script_turn_manager",
+			"status": "PASS"
+		},
+		{
+			"name": "script_battle_actions",
+			"status": "PASS"
+		},
+		{
+			"name": "script_ai_brain",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_grass_type",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_grass_cost",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_grass_not_impassable",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_wall_impassable",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_key_grass",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_key_forest",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_tile_key_water",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_forest_move_cost_2",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_forest_def_bonus",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_forest_eva_bonus",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_hills_move_cost_3",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_hills_def_bonus",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_grid_width",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_grid_height",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_grid_tile_00_grass",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_grid_tile_10_forest",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_grid_tile_02_water",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_grid_tile_22_wall",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_bounds_in",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_bounds_in_max",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_bounds_out_neg",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_bounds_out_x",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_bounds_out_y",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_bounds_null_tile",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_neighbors_center_4",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_neighbors_corner_2",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_occupancy_placed",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_occupancy_free_other",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_occupancy_not_free",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_occupancy_removed",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_occupancy_free_after_remove",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_coord_grid_to_world_x",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_coord_grid_to_world_y",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_coord_roundtrip",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_passable_grass",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_impassable_water",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_impassable_wall",
+			"status": "PASS"
+		},
+		{
+			"name": "grid_impassable_oob",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_open_count",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_open_adjacent",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_open_2_away",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_open_no_origin",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_open_2_left",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_blocked_near",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_blocked_water",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_blocked_beyond",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_cost_forest_1",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_move_cost_forest_2_blocked",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_path_basic_found",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_path_basic_end",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_path_basic_length",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_path_obstacle_found",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_path_obstacle_avoids_wall",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_enemy_blocks_cell",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_enemy_blocks_beyond",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_1_count",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_1_up",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_1_no_self",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_bounds_0_1",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_bounds_0_2",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_bounds_1_0",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_bounds_1_1",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_bounds_2_0",
+			"status": "PASS"
+		},
+		{
+			"name": "pathfinder_atk_range_bounds_no_oob",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_dmg_formula",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_min_damage_1",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_terrain_def",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_hit_chance_grass",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_hit_chance_forest",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_hit_clamp_normal",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_crit_fast",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_crit_clamp_max",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_crit_clamp_min",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_determinism_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_determinism_crit",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_determinism_damage",
+			"status": "PASS"
+		},
+		{
+			"name": "combat_crit_dmg_calc",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_setup_player_phase",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_setup_no_result",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_cycle_start_player",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_cycle_to_enemy",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_cycle_back_player",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_phase_not_done",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_phase_still_not_done",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_phase_done",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_reset_moved",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_reset_acted",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_reset_exhausted",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_victory",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_defeat",
+			"status": "PASS"
+		},
+		{
+			"name": "turn_no_end",
+			"status": "PASS"
+		},
+		{
+			"name": "ai_adjacent_type",
+			"status": "PASS"
+		},
+		{
+			"name": "ai_adjacent_target",
+			"status": "PASS"
+		},
+		{
+			"name": "ai_approach_type",
+			"status": "PASS"
+		},
+		{
+			"name": "ai_approach_closer",
+			"status": "PASS"
+		},
+		{
+			"name": "ai_no_targets_wait",
+			"status": "PASS"
 		}
 	],
 	"status": "pass",
 	"testsFailed": 0,
-	"testsPassed": 44,
-	"testsTotal": 44,
-	"timestamp": "2026-03-01T00:26:17"
+	"testsPassed": 153,
+	"testsTotal": 153,
+	"timestamp": "2026-03-01T19:32:20"
 }

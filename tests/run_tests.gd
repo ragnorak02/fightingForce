@@ -77,7 +77,40 @@ func _run_all_tests() -> void:
 	# Checkpoint 12: Credits
 	_test("credits_file", _file_exists("res://assets/_credits/credits.md"))
 
-	print("[TestRunner] Completed: %d passed, %d failed, %d total" % [_passed, _failed, _passed + _failed])
+	# Phase 2: Data files exist
+	_test("data_classes_json", _file_exists("res://data/classes/classes.json"))
+	_test("data_party_json", _file_exists("res://data/units/party.json"))
+	_test("data_enemies_json", _file_exists("res://data/units/enemies.json"))
+	_test("data_battle_01_json", _file_exists("res://data/maps/battle_01.json"))
+	_test("battle_scene_exists", _file_exists("res://scenes/battle/battle.tscn"))
+
+	# Phase 2: Logic scripts exist
+	_test("script_tile_data", _file_exists("res://scripts/battle/tile_data.gd"))
+	_test("script_grid_data", _file_exists("res://scripts/battle/grid_data.gd"))
+	_test("script_unit_data", _file_exists("res://scripts/battle/unit_data.gd"))
+	_test("script_pathfinder", _file_exists("res://scripts/battle/pathfinder.gd"))
+	_test("script_combat_calc", _file_exists("res://scripts/battle/combat_calc.gd"))
+	_test("script_turn_manager", _file_exists("res://scripts/battle/turn_manager.gd"))
+	_test("script_battle_actions", _file_exists("res://scripts/battle/battle_actions.gd"))
+	_test("script_ai_brain", _file_exists("res://scripts/battle/ai_brain.gd"))
+
+	# Phase 2: Unit tests (RefCounted — headless safe)
+	print("\n[TestRunner] Starting Phase 2 unit tests...")
+	_run_case(TestGrid.new())
+	_run_case(TestPathfinder.new())
+	_run_case(TestCombat.new())
+	_run_case(TestTurnManager.new())
+	_run_case(TestAI.new())
+
+	print("\n[TestRunner] Completed: %d passed, %d failed, %d total" % [_passed, _failed, _passed + _failed])
+
+
+func _run_case(test_case: RefCounted) -> void:
+	var result: Dictionary = test_case.run()
+	_passed += int(result.get("passed", 0))
+	_failed += int(result.get("failed", 0))
+	var case_results: Array = result.get("results", [])
+	_results.append_array(case_results)
 
 
 func _test(name: String, passed: bool) -> void:

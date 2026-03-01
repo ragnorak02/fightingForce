@@ -1,0 +1,41 @@
+[
+	{
+		"id": "goblin_soldier_1",
+		"name": "Goblin",
+		"class": "soldier",
+		"label": "G1",
+		"team": "enemy",
+		"spawn": [10, 3],
+		"statsOverride": {
+			"hp": -4,
+			"atk": -2,
+			"def": -2
+		}
+	},
+	{
+		"id": "goblin_soldier_2",
+		"name": "Goblin",
+		"class": "soldier",
+		"label": "G2",
+		"team": "enemy",
+		"spawn": [10, 6],
+		"statsOverride": {
+			"hp": -4,
+			"atk": -2,
+			"def": -2
+		}
+	},
+	{
+		"id": "goblin_archer",
+		"name": "G.Archer",
+		"class": "archer",
+		"label": "GA",
+		"team": "enemy",
+		"spawn": [11, 4],
+		"statsOverride": {
+			"hp": -2,
+			"atk": -1,
+			"def": -1
+		}
+	}
+]

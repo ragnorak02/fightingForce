@@ -1,0 +1,36 @@
+{
+	"id": "battle_01",
+	"name": "Greenfield Skirmish",
+	"width": 12,
+	"height": 10,
+	"tileKey": {
+		".": "GRASS",
+		"F": "FOREST",
+		"H": "HILLS",
+		"R": "ROAD",
+		"W": "WATER",
+		"X": "WALL"
+	},
+	"tiles": [
+		"..F.RRRR.F..",
+		"..F.R..R.F..",
+		"....R..R....",
+		".F..R..R..H.",
+		"RRRRRRRRRRRR",
+		".H..R..R..F.",
+		"....R..R....",
+		"..F.R..RWW..",
+		"..F.RRRR.W..",
+		"..H.......H."
+	],
+	"playerSpawns": [
+		{ "unitId": "marcus", "pos": [1, 3] },
+		{ "unitId": "elara", "pos": [1, 5] },
+		{ "unitId": "theron", "pos": [0, 4] }
+	],
+	"enemySpawns": [
+		{ "unitId": "goblin_soldier_1", "pos": [10, 3] },
+		{ "unitId": "goblin_soldier_2", "pos": [10, 6] },
+		{ "unitId": "goblin_archer", "pos": [11, 4] }
+	]
+}

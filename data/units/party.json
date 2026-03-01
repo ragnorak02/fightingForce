@@ -1,0 +1,36 @@
+[
+	{
+		"id": "marcus",
+		"name": "Marcus",
+		"class": "soldier",
+		"label": "MA",
+		"team": "player",
+		"spawn": [1, 3],
+		"statsOverride": {
+			"hp": 2,
+			"atk": 1
+		}
+	},
+	{
+		"id": "elara",
+		"name": "Elara",
+		"class": "archer",
+		"label": "EL",
+		"team": "player",
+		"spawn": [1, 5],
+		"statsOverride": {
+			"spd": 1
+		}
+	},
+	{
+		"id": "theron",
+		"name": "Theron",
+		"class": "mage",
+		"label": "TH",
+		"team": "player",
+		"spawn": [0, 4],
+		"statsOverride": {
+			"mp": 2
+		}
+	}
+]

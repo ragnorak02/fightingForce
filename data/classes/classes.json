@@ -1,0 +1,38 @@
+[
+	{
+		"id": "soldier",
+		"name": "Soldier",
+		"hp": 22,
+		"mp": 0,
+		"atk": 8,
+		"def": 6,
+		"spd": 5,
+		"mov": 4,
+		"attackRange": 1,
+		"attackType": "melee"
+	},
+	{
+		"id": "archer",
+		"name": "Archer",
+		"hp": 16,
+		"mp": 0,
+		"atk": 7,
+		"def": 3,
+		"spd": 7,
+		"mov": 5,
+		"attackRange": 2,
+		"attackType": "ranged"
+	},
+	{
+		"id": "mage",
+		"name": "Mage",
+		"hp": 14,
+		"mp": 12,
+		"atk": 9,
+		"def": 2,
+		"spd": 4,
+		"mov": 3,
+		"attackRange": 2,
+		"attackType": "magic"
+	}
+]
