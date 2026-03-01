@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be manually edited.
+
+config_version=5
+
+[application]
+
+config/name="Fighting Force"
+config/description="Tactical Turn-Based Strategy (SRPG) — Shining Force 2-inspired"
+run/main_scene="res://scenes/boot/boot.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://scripts/core/game_manager.gd"
+SceneManager="*res://scripts/core/scene_manager.gd"
+InputManager="*res://scripts/core/input_manager.gd"
+DataDB="*res://scripts/core/data_db.gd"
+AudioManager="*res://scripts/core/audio_manager.gd"
+SaveManager="*res://scripts/core/save_manager.gd"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.102, 0.102, 0.18, 1)
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0

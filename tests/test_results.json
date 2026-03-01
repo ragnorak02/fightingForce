@@ -1,0 +1,186 @@
+{
+	"gameId": "fightingforce",
+	"results": [
+		{
+			"name": "dirs_assets",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_credits",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_tiles",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_sprites_units",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_sprites_enemies",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_sprites_effects",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_ui",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_audio_music",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_assets_audio_sfx",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scenes_boot",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scenes_overworld",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scenes_battle",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scenes_ui",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scripts_core",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scripts_battle",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scripts_overworld",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scripts_ui",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_scripts_data",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_data_units",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_data_items",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_data_classes",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_data_maps",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_data_skills",
+			"status": "PASS"
+		},
+		{
+			"name": "dirs_tests_cases",
+			"status": "PASS"
+		},
+		{
+			"name": "game_config_exists",
+			"status": "PASS"
+		},
+		{
+			"name": "game_config_valid",
+			"status": "PASS"
+		},
+		{
+			"name": "game_config_has_id",
+			"status": "PASS"
+		},
+		{
+			"name": "game_config_has_engine",
+			"status": "PASS"
+		},
+		{
+			"name": "game_config_has_controller",
+			"status": "PASS"
+		},
+		{
+			"name": "project_status_exists",
+			"status": "PASS"
+		},
+		{
+			"name": "project_status_valid",
+			"status": "PASS"
+		},
+		{
+			"name": "project_status_schema_v1",
+			"status": "PASS"
+		},
+		{
+			"name": "project_godot_exists",
+			"status": "PASS"
+		},
+		{
+			"name": "autoload_game_manager",
+			"status": "PASS"
+		},
+		{
+			"name": "autoload_scene_manager",
+			"status": "PASS"
+		},
+		{
+			"name": "autoload_input_manager",
+			"status": "PASS"
+		},
+		{
+			"name": "autoload_data_db",
+			"status": "PASS"
+		},
+		{
+			"name": "autoload_audio_manager",
+			"status": "PASS"
+		},
+		{
+			"name": "autoload_save_manager",
+			"status": "PASS"
+		},
+		{
+			"name": "boot_scene_exists",
+			"status": "PASS"
+		},
+		{
+			"name": "boot_script_exists",
+			"status": "PASS"
+		},
+		{
+			"name": "test_runner_bat",
+			"status": "PASS"
+		},
+		{
+			"name": "test_runner_gd",
+			"status": "PASS"
+		},
+		{
+			"name": "credits_file",
+			"status": "PASS"
+		}
+	],
+	"status": "pass",
+	"testsFailed": 0,
+	"testsPassed": 44,
+	"testsTotal": 44,
+	"timestamp": "2026-03-01T00:26:17"
+}

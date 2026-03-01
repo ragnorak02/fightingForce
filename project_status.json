@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "gameId": "fightingforce",
+  "title": "Fighting Force",
+  "lastUpdated": "2026-03-01T00:26Z",
+  "health": {
+    "progressPercent": 11,
+    "buildVersion": "0.1.0",
+    "assetStage": "placeholder",
+    "checkpointsComplete": 12,
+    "checkpointsTotal": 110
+  },
+  "tech": {
+    "engine": "Godot",
+    "engineVersion": "4.6",
+    "languages": ["GDScript"],
+    "graphicsType": "2D"
+  },
+  "features": {
+    "controllerSupport": "partial",
+    "achievementsSystem": "missing",
+    "testScripts": "partial",
+    "saveSystem": "partial",
+    "settingsMenu": "missing",
+    "audio": "partial",
+    "vfx": "missing"
+  },
+  "milestones": {
+    "firstGraphicsPass": false,
+    "controllerIntegration": false,
+    "coreGameplayLoop": false,
+    "verticalSlice": false,
+    "contentComplete": false,
+    "productionReady": false
+  },
+  "testing": {
+    "testCommand": "tests/run-tests.bat",
+    "lastRunAt": "2026-03-01T00:26Z",
+    "status": "pass",
+    "notes": "44/44 Phase 1 compliance tests passing"
+  },
+  "links": {
+    "repo": null,
+    "launcherId": "fightingforce"
+  }
+}

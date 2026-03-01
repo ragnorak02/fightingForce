@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128">
+  <rect width="128" height="128" rx="16" fill="#1a1a2e"/>
+  <text x="64" y="52" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#f0c850" text-anchor="middle">FIGHTING</text>
+  <text x="64" y="72" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#f0c850" text-anchor="middle">FORCE</text>
+  <path d="M44 85 L64 100 L84 85" stroke="#d4af37" stroke-width="2" fill="none"/>
+  <path d="M64 38 L64 28 M58 32 L64 28 L70 32" stroke="#f0c850" stroke-width="2" fill="none"/>
+</svg>

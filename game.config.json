@@ -1,0 +1,14 @@
+{
+  "id": "fightingforce",
+  "title": "Fighting Force",
+  "engine": "Godot",
+  "engineVersion": "4.6",
+  "renderer": "GL Compatibility",
+  "resolution": "640x360",
+  "genre": "Tactical Turn-Based Strategy (SRPG)",
+  "platform": "PC",
+  "controllerRequired": true,
+  "launchScene": "res://scenes/boot/boot.tscn",
+  "testRunner": "tests/run-tests.bat",
+  "testScript": "res://tests/run_tests.gd"
+}
