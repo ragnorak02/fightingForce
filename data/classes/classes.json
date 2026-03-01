@@ -9,7 +9,18 @@
 		"spd": 5,
 		"mov": 4,
 		"attackRange": 1,
-		"attackType": "melee"
+		"attackType": "melee",
+		"defaultWeapon": "iron_sword",
+		"defaultArmor": "leather_armor",
+		"growth": {
+			"hp": 3,
+			"mp": 0,
+			"atk": 2,
+			"def": 2,
+			"spd": 1
+		},
+		"spells": [],
+		"promotesTo": null
 	},
 	{
 		"id": "archer",
@@ -21,7 +32,18 @@
 		"spd": 7,
 		"mov": 5,
 		"attackRange": 2,
-		"attackType": "ranged"
+		"attackType": "ranged",
+		"defaultWeapon": "short_bow",
+		"defaultArmor": "leather_armor",
+		"growth": {
+			"hp": 2,
+			"mp": 0,
+			"atk": 2,
+			"def": 1,
+			"spd": 2
+		},
+		"spells": [],
+		"promotesTo": null
 	},
 	{
 		"id": "mage",
@@ -33,6 +55,21 @@
 		"spd": 4,
 		"mov": 3,
 		"attackRange": 2,
-		"attackType": "magic"
+		"attackType": "magic",
+		"defaultWeapon": "oak_staff",
+		"defaultArmor": "mage_robe",
+		"growth": {
+			"hp": 2,
+			"mp": 3,
+			"atk": 2,
+			"def": 1,
+			"spd": 1
+		},
+		"spells": [
+			{ "id": "blaze", "level": 1 },
+			{ "id": "heal", "level": 3 },
+			{ "id": "freeze", "level": 6 }
+		],
+		"promotesTo": null
 	}
 ]

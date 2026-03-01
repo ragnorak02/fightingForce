@@ -1,0 +1,74 @@
+[
+	{
+		"id": "iron_sword",
+		"name": "Iron Sword",
+		"type": "weapon",
+		"subtype": "melee",
+		"atk": 5,
+		"hit": 5,
+		"crit": 0,
+		"range": 1,
+		"price": 120,
+		"description": "A sturdy iron blade."
+	},
+	{
+		"id": "bronze_sword",
+		"name": "Bronze Sword",
+		"type": "weapon",
+		"subtype": "melee",
+		"atk": 3,
+		"hit": 10,
+		"crit": 0,
+		"range": 1,
+		"price": 60,
+		"description": "A lightweight bronze sword."
+	},
+	{
+		"id": "short_bow",
+		"name": "Short Bow",
+		"type": "weapon",
+		"subtype": "ranged",
+		"atk": 3,
+		"hit": 5,
+		"crit": 5,
+		"range": 2,
+		"price": 80,
+		"description": "A compact bow for short distances."
+	},
+	{
+		"id": "long_bow",
+		"name": "Long Bow",
+		"type": "weapon",
+		"subtype": "ranged",
+		"atk": 5,
+		"hit": 0,
+		"crit": 5,
+		"range": 3,
+		"price": 150,
+		"description": "A powerful bow with extended range."
+	},
+	{
+		"id": "oak_staff",
+		"name": "Oak Staff",
+		"type": "weapon",
+		"subtype": "magic",
+		"atk": 2,
+		"hit": 10,
+		"crit": 0,
+		"range": 2,
+		"price": 100,
+		"description": "A staff carved from ancient oak."
+	},
+	{
+		"id": "goblin_dagger",
+		"name": "Goblin Dagger",
+		"type": "weapon",
+		"subtype": "melee",
+		"atk": 2,
+		"hit": 5,
+		"crit": 10,
+		"range": 1,
+		"price": 30,
+		"description": "A crude but sharp goblin blade."
+	}
+]

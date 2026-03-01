@@ -9,8 +9,8 @@ static func decide(unit: UnitData, grid: BattleGrid, targets: Array) -> Dictiona
 	if targets.is_empty():
 		return { "type": "wait", "move_to": unit.grid_pos, "target": null }
 
-	# Get movement range
-	var move_cells := Pathfinder.get_movement_range(grid, unit.grid_pos, unit.mov, unit.team)
+	# Get movement range (using effective stats for status effect modifiers)
+	var move_cells := Pathfinder.get_movement_range(grid, unit.grid_pos, unit.get_effective_mov(), unit.team)
 	move_cells.append(unit.grid_pos)  # Can stay in place
 
 	# Find best move+attack combination
@@ -19,7 +19,7 @@ static func decide(unit: UnitData, grid: BattleGrid, targets: Array) -> Dictiona
 	var best_distance: int = 999
 
 	for cell in move_cells:
-		var attack_cells := Pathfinder.get_attack_range(grid, cell, unit.attack_range)
+		var attack_cells := Pathfinder.get_attack_range(grid, cell, unit.get_effective_range())
 		for target in targets:
 			if not (target is UnitData) or not target.is_alive:
 				continue

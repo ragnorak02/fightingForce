@@ -1,0 +1,29 @@
+[
+	{
+		"id": "leather_armor",
+		"name": "Leather Armor",
+		"type": "armor",
+		"def": 3,
+		"spd": 0,
+		"price": 80,
+		"description": "Light leather protection."
+	},
+	{
+		"id": "chain_mail",
+		"name": "Chain Mail",
+		"type": "armor",
+		"def": 6,
+		"spd": -1,
+		"price": 200,
+		"description": "Heavy chain links. Reduces speed."
+	},
+	{
+		"id": "mage_robe",
+		"name": "Mage Robe",
+		"type": "armor",
+		"def": 1,
+		"spd": 1,
+		"price": 120,
+		"description": "Enchanted robes favored by casters."
+	}
+]

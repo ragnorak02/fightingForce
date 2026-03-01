@@ -94,6 +94,33 @@ func _run_all_tests() -> void:
 	_test("script_battle_actions", _file_exists("res://scripts/battle/battle_actions.gd"))
 	_test("script_ai_brain", _file_exists("res://scripts/battle/ai_brain.gd"))
 
+	# Phase 3: Data files exist
+	print("\n[TestRunner] Phase 3 file checks...")
+	_test("data_weapons_json", _file_exists("res://data/items/weapons.json"))
+	_test("data_consumables_json", _file_exists("res://data/items/consumables.json"))
+	_test("data_armor_json", _file_exists("res://data/items/armor.json"))
+	_test("data_spells_json", _file_exists("res://data/skills/spells.json"))
+	_test("data_shop_inventory_json", _file_exists("res://data/items/shop_inventory.json"))
+
+	# Phase 3: Logic scripts exist
+	_test("script_item_data", _file_exists("res://scripts/battle/item_data.gd"))
+	_test("script_spell_data", _file_exists("res://scripts/battle/spell_data.gd"))
+	_test("script_status_effect", _file_exists("res://scripts/battle/status_effect.gd"))
+	_test("script_inventory", _file_exists("res://scripts/battle/inventory.gd"))
+	_test("script_xp_system", _file_exists("res://scripts/battle/xp_system.gd"))
+	_test("script_seeded_rng", _file_exists("res://scripts/battle/seeded_rng.gd"))
+
+	# Phase 3: UI scripts exist
+	_test("script_spell_menu", _file_exists("res://scripts/ui/spell_menu.gd"))
+	_test("script_item_menu", _file_exists("res://scripts/ui/item_menu.gd"))
+
+	# Phase 3: JSON validity
+	_test("weapons_json_valid", _json_valid("res://data/items/weapons.json"))
+	_test("consumables_json_valid", _json_valid("res://data/items/consumables.json"))
+	_test("armor_json_valid", _json_valid("res://data/items/armor.json"))
+	_test("spells_json_valid", _json_valid("res://data/skills/spells.json"))
+	_test("shop_inventory_json_valid", _json_valid("res://data/items/shop_inventory.json"))
+
 	# Phase 2: Unit tests (RefCounted — headless safe)
 	print("\n[TestRunner] Starting Phase 2 unit tests...")
 	_run_case(TestGrid.new())
@@ -101,6 +128,15 @@ func _run_all_tests() -> void:
 	_run_case(TestCombat.new())
 	_run_case(TestTurnManager.new())
 	_run_case(TestAI.new())
+
+	# Phase 3: Data model tests
+	print("\n[TestRunner] Starting Phase 3 unit tests...")
+	_run_case(TestItems.new())
+	_run_case(TestSpells.new())
+	_run_case(TestInventory.new())
+	_run_case(TestStatus.new())
+	_run_case(TestXP.new())
+	_run_case(TestDeterminismExtended.new())
 
 	print("\n[TestRunner] Completed: %d passed, %d failed, %d total" % [_passed, _failed, _passed + _failed])
 

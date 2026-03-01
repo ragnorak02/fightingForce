@@ -1,0 +1,29 @@
+[
+	{
+		"id": "herb",
+		"name": "Herb",
+		"type": "consumable",
+		"effect": "heal",
+		"power": 15,
+		"price": 10,
+		"description": "Restores 15 HP."
+	},
+	{
+		"id": "antidote",
+		"name": "Antidote",
+		"type": "consumable",
+		"effect": "cure_poison",
+		"power": 0,
+		"price": 8,
+		"description": "Cures poison."
+	},
+	{
+		"id": "angel_wing",
+		"name": "Angel Wing",
+		"type": "consumable",
+		"effect": "revive",
+		"power": 10,
+		"price": 50,
+		"description": "Revives a fallen ally with 10 HP."
+	}
+]

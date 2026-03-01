@@ -230,6 +230,78 @@
 			"status": "PASS"
 		},
 		{
+			"name": "data_weapons_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_consumables_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_armor_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_spells_json",
+			"status": "PASS"
+		},
+		{
+			"name": "data_shop_inventory_json",
+			"status": "PASS"
+		},
+		{
+			"name": "script_item_data",
+			"status": "PASS"
+		},
+		{
+			"name": "script_spell_data",
+			"status": "PASS"
+		},
+		{
+			"name": "script_status_effect",
+			"status": "PASS"
+		},
+		{
+			"name": "script_inventory",
+			"status": "PASS"
+		},
+		{
+			"name": "script_xp_system",
+			"status": "PASS"
+		},
+		{
+			"name": "script_seeded_rng",
+			"status": "PASS"
+		},
+		{
+			"name": "script_spell_menu",
+			"status": "PASS"
+		},
+		{
+			"name": "script_item_menu",
+			"status": "PASS"
+		},
+		{
+			"name": "weapons_json_valid",
+			"status": "PASS"
+		},
+		{
+			"name": "consumables_json_valid",
+			"status": "PASS"
+		},
+		{
+			"name": "armor_json_valid",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_json_valid",
+			"status": "PASS"
+		},
+		{
+			"name": "shop_inventory_json_valid",
+			"status": "PASS"
+		},
+		{
 			"name": "grid_tile_grass_type",
 			"status": "PASS"
 		},
@@ -612,11 +684,807 @@
 		{
 			"name": "ai_no_targets_wait",
 			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_id",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_name",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_type",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_subtype",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_price",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_id",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_type",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_def",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_spd",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_price",
+			"status": "PASS"
+		},
+		{
+			"name": "items_consumable_id",
+			"status": "PASS"
+		},
+		{
+			"name": "items_consumable_type",
+			"status": "PASS"
+		},
+		{
+			"name": "items_consumable_effect",
+			"status": "PASS"
+		},
+		{
+			"name": "items_consumable_power",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_weapon_true",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_weapon_not_armor",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_weapon_not_consumable",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_armor_true",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_armor_not_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_consumable_true",
+			"status": "PASS"
+		},
+		{
+			"name": "items_is_usable_in_battle",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_not_usable",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_atk",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_crit",
+			"status": "PASS"
+		},
+		{
+			"name": "items_weapon_range",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_def_bonus",
+			"status": "PASS"
+		},
+		{
+			"name": "items_armor_spd_bonus",
+			"status": "PASS"
+		},
+		{
+			"name": "items_heal_effect",
+			"status": "PASS"
+		},
+		{
+			"name": "items_heal_power",
+			"status": "PASS"
+		},
+		{
+			"name": "items_cure_effect",
+			"status": "PASS"
+		},
+		{
+			"name": "items_revive_effect",
+			"status": "PASS"
+		},
+		{
+			"name": "items_revive_power",
+			"status": "PASS"
+		},
+		{
+			"name": "items_roundtrip_id",
+			"status": "PASS"
+		},
+		{
+			"name": "items_roundtrip_type",
+			"status": "PASS"
+		},
+		{
+			"name": "items_roundtrip_atk",
+			"status": "PASS"
+		},
+		{
+			"name": "items_default_id",
+			"status": "PASS"
+		},
+		{
+			"name": "items_default_name",
+			"status": "PASS"
+		},
+		{
+			"name": "items_default_type",
+			"status": "PASS"
+		},
+		{
+			"name": "items_default_price",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_offense_id",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_offense_name",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_offense_type",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_offense_element",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_offense_power",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_offense_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_support_id",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_support_type",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_support_power",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_support_hit_100",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_status_effect_name",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_status_chance",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_has_status",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_no_status_effect",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_no_status_chance",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_no_has_status",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_is_offensive",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_not_support",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_is_support",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_not_offensive",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_default_id",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_default_name",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_default_type",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_default_mp",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_default_range",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_mp_cost_2",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_mp_cost_10",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_range_1",
+			"status": "PASS"
+		},
+		{
+			"name": "spells_range_3",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_equip_weapon_old_null",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_equip_weapon_set",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_equip_armor_old_null",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_equip_armor_set",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_swap_returns_old",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_swap_new_equipped",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_atk_no_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_atk_with_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_def_no_armor",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_def_with_armor",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_spd_armor_penalty",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_range_no_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_range_with_bow",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_type_default",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_eff_type_ranged",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_hit_bonus_no_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_crit_bonus_no_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_hit_bonus_with_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_crit_bonus_with_weapon",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_add_success",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_size_1",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_full",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_add_fails",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_remove_success",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_empty_after",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_remove_missing",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_remove_at_returns",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_size_after_remove_at",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_inv_remove_at_oob",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_usable_count",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_usable_is_herb",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_add",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_count_1",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_full",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_add_fails",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_remove",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_empty",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_remove_by_id",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_storage_one_left",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_by_type_count",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_by_type_weapons",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_save_load_count",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_save_load_first_id",
+			"status": "PASS"
+		},
+		{
+			"name": "inventory_save_load_second_id",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_type",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_turns",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_name",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_type",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_turns",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_spd_mod",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_mov_mod",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_name",
+			"status": "PASS"
+		},
+		{
+			"name": "status_from_name_poison",
+			"status": "PASS"
+		},
+		{
+			"name": "status_from_name_slow",
+			"status": "PASS"
+		},
+		{
+			"name": "status_from_name_null",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_tick_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_tick_not_expired",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_turns_left_2",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_expired",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_spd",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_mov",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_no_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_expired",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_no_tick_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "status_add_status_count",
+			"status": "PASS"
+		},
+		{
+			"name": "status_no_status_initially",
+			"status": "PASS"
+		},
+		{
+			"name": "status_has_poison",
+			"status": "PASS"
+		},
+		{
+			"name": "status_no_slow",
+			"status": "PASS"
+		},
+		{
+			"name": "status_no_stack",
+			"status": "PASS"
+		},
+		{
+			"name": "status_tick_result_count",
+			"status": "PASS"
+		},
+		{
+			"name": "status_tick_damage",
+			"status": "PASS"
+		},
+		{
+			"name": "status_tick_hp_reduced",
+			"status": "PASS"
+		},
+		{
+			"name": "status_expired_removed",
+			"status": "PASS"
+		},
+		{
+			"name": "status_clear_poison",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_remains",
+			"status": "PASS"
+		},
+		{
+			"name": "status_clear_all",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_reduces_mov",
+			"status": "PASS"
+		},
+		{
+			"name": "status_slow_reduces_spd",
+			"status": "PASS"
+		},
+		{
+			"name": "status_poison_kills",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_same_level_30",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_higher_enemy_45",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_lower_enemy_20",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_min_xp_10",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_no_level_at_50",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_level_at_100",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_level_at_150",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_level_up_success",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_level_now_2",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_hp_grew",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_atk_grew",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_growth_hp_3",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_growth_atk_2",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_xp_deducted",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_carry_over_130",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_can_level_again",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_level_3",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_carry_over_30",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_no_gains",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_still_level_1",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_award_40",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_attacker_xp_40",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_progress_0",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_progress_50",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_progress_100",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_multi_level_3",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_knows_blaze_at_1",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_first_spell_blaze",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_now_level_3",
+			"status": "PASS"
+		},
+		{
+			"name": "xp_knows_heal_at_3",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_weapon_det_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_weapon_det_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_weapon_det_crit",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_spell_det_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_spell_det_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_heal_auto_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_heal_amount",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_status_det_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_status_det_applied",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_draw_starts_0",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_draw_after_1",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_draw_after_3",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_item_success",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_item_healed",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_item_consumed",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_eff_preview_dmg",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_eff_preview_hit",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_no_weapon_dmg_5",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_weapon_dmg_10",
+			"status": "PASS"
+		},
+		{
+			"name": "det_ext_weapon_hit_90",
+			"status": "PASS"
 		}
 	],
 	"status": "pass",
 	"testsFailed": 0,
-	"testsPassed": 153,
-	"testsTotal": 153,
-	"timestamp": "2026-03-01T19:32:20"
+	"testsPassed": 370,
+	"testsTotal": 370,
+	"timestamp": "2026-03-01T21:32:18"
 }

@@ -1,0 +1,52 @@
+[
+	{
+		"id": "blaze",
+		"name": "Blaze",
+		"type": "offense",
+		"element": "fire",
+		"mpCost": 3,
+		"power": 8,
+		"hit": 90,
+		"range": 2,
+		"statusEffect": null,
+		"description": "Hurls a bolt of fire."
+	},
+	{
+		"id": "heal",
+		"name": "Heal",
+		"type": "support",
+		"element": "holy",
+		"mpCost": 3,
+		"power": 15,
+		"hit": 100,
+		"range": 2,
+		"statusEffect": null,
+		"description": "Restores HP to an ally."
+	},
+	{
+		"id": "freeze",
+		"name": "Freeze",
+		"type": "offense",
+		"element": "ice",
+		"mpCost": 5,
+		"power": 12,
+		"hit": 80,
+		"range": 2,
+		"statusEffect": "slow",
+		"statusChance": 40,
+		"description": "Chilling blast that may slow the target."
+	},
+	{
+		"id": "poison_cloud",
+		"name": "Poison Cloud",
+		"type": "offense",
+		"element": "dark",
+		"mpCost": 4,
+		"power": 5,
+		"hit": 85,
+		"range": 2,
+		"statusEffect": "poison",
+		"statusChance": 60,
+		"description": "Noxious fumes that may poison the target."
+	}
+]

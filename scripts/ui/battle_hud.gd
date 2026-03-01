@@ -4,7 +4,9 @@ extends PanelContainer
 
 var _unit_label: Label = null
 var _hp_label: Label = null
+var _mp_label: Label = null
 var _class_label: Label = null
+var _status_label: Label = null
 var _terrain_label: Label = null
 var _phase_label: Label = null
 
@@ -29,11 +31,23 @@ func _ready() -> void:
 	_hp_label.add_theme_font_size_override("font_size", 10)
 	unit_vbox.add_child(_hp_label)
 
+	_mp_label = Label.new()
+	_mp_label.text = ""
+	_mp_label.add_theme_font_size_override("font_size", 10)
+	_mp_label.add_theme_color_override("font_color", Color(0.4, 0.6, 1.0))
+	unit_vbox.add_child(_mp_label)
+
 	_class_label = Label.new()
 	_class_label.text = ""
 	_class_label.add_theme_font_size_override("font_size", 9)
 	_class_label.add_theme_color_override("font_color", Color(0.7, 0.7, 0.7))
 	unit_vbox.add_child(_class_label)
+
+	_status_label = Label.new()
+	_status_label.text = ""
+	_status_label.add_theme_font_size_override("font_size", 9)
+	_status_label.add_theme_color_override("font_color", Color(0.9, 0.5, 0.5))
+	unit_vbox.add_child(_status_label)
 
 	# Spacer
 	var spacer := Control.new()
@@ -60,23 +74,38 @@ func _ready() -> void:
 	hbox.add_child(_phase_label)
 
 
-func update_unit_info(unit: UnitData) -> void:
-	if unit == null:
+func update_unit_info(unit: Variant) -> void:
+	if unit == null or not (unit is UnitData):
 		_unit_label.text = ""
 		_hp_label.text = ""
+		_mp_label.text = ""
 		_class_label.text = ""
+		_status_label.text = ""
 		return
-	_unit_label.text = unit.unit_name
+	_unit_label.text = "%s  Lv%d" % [unit.unit_name, unit.level]
 	_hp_label.text = "HP %d/%d" % [unit.hp, unit.max_hp]
+	if unit.max_mp > 0:
+		_mp_label.text = "MP %d/%d" % [unit.mp, unit.max_mp]
+	else:
+		_mp_label.text = ""
 	_class_label.text = unit.unit_class.capitalize()
+
+	# Status effects
+	var status_texts: Array = []
+	for effect in unit.status_effects:
+		status_texts.append(effect.get_type_name())
+	if status_texts.size() > 0:
+		_status_label.text = " ".join(status_texts)
+	else:
+		_status_label.text = ""
 
 
 func update_terrain_info(tile: BattleTile) -> void:
 	if tile == null:
 		_terrain_label.text = ""
 		return
-	var name := BattleTile.type_name(tile.tile_type)
-	var info := name
+	var tile_name: String = BattleTile.type_name(tile.tile_type)
+	var info := tile_name
 	if tile.def_bonus > 0:
 		info += " DEF+%d" % tile.def_bonus
 	if tile.eva_bonus > 0:

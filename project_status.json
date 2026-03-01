@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "gameId": "fightingforce",
   "title": "Fighting Force",
-  "lastUpdated": "2026-03-01T00:26Z",
+  "lastUpdated": "2026-03-01T01:30Z",
   "health": {
-    "progressPercent": 11,
-    "buildVersion": "0.1.0",
+    "progressPercent": 25,
+    "buildVersion": "0.3.0",
     "assetStage": "placeholder",
-    "checkpointsComplete": 12,
+    "checkpointsComplete": 55,
     "checkpointsTotal": 110
   },
   "tech": {
@@ -35,9 +35,9 @@
   },
   "testing": {
     "testCommand": "tests/run-tests.bat",
-    "lastRunAt": "2026-03-01T00:26Z",
+    "lastRunAt": "2026-03-01T01:30Z",
     "status": "pass",
-    "notes": "44/44 Phase 1 compliance tests passing"
+    "notes": "370/370 tests passing (Phase 1-3 compliance + unit tests)"
   },
   "links": {
     "repo": null,

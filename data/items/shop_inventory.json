@@ -1,0 +1,12 @@
+{
+	"town_01": [
+		{ "itemId": "herb", "stock": 10 },
+		{ "itemId": "antidote", "stock": 5 },
+		{ "itemId": "angel_wing", "stock": 2 },
+		{ "itemId": "bronze_sword", "stock": 3 },
+		{ "itemId": "iron_sword", "stock": 2 },
+		{ "itemId": "short_bow", "stock": 2 },
+		{ "itemId": "leather_armor", "stock": 3 },
+		{ "itemId": "chain_mail", "stock": 1 }
+	]
+}

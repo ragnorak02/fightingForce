@@ -6,11 +6,13 @@
 		"label": "G1",
 		"team": "enemy",
 		"spawn": [10, 3],
+		"level": 1,
 		"statsOverride": {
 			"hp": -4,
 			"atk": -2,
 			"def": -2
-		}
+		},
+		"loot": null
 	},
 	{
 		"id": "goblin_soldier_2",
@@ -19,11 +21,13 @@
 		"label": "G2",
 		"team": "enemy",
 		"spawn": [10, 6],
+		"level": 1,
 		"statsOverride": {
 			"hp": -4,
 			"atk": -2,
 			"def": -2
-		}
+		},
+		"loot": null
 	},
 	{
 		"id": "goblin_archer",
@@ -32,10 +36,12 @@
 		"label": "GA",
 		"team": "enemy",
 		"spawn": [11, 4],
+		"level": 2,
 		"statsOverride": {
 			"hp": -2,
 			"atk": -1,
 			"def": -1
-		}
+		},
+		"loot": "herb"
 	}
 ]
